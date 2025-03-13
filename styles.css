@@ -127,9 +127,10 @@
   .main__image__image:hover {
     border-radius: 100%;
     background-position: center;
-    background-size: contain;
+    background-size: 100%;
     width: 200px;
     height: 200px;
+    overflow: hidden;
   }
   .main__text {
     width: 100%;
