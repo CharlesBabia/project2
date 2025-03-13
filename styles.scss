@@ -20,6 +20,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 10px;
     &__logo{
         font-size: 4vw;
         color: red;
@@ -33,7 +34,13 @@
     }
 }
 
- 
+ .header a{
+    text-decoration: none;
+    color: red;
+ }
+ .header a:hover{
+    color: #780606;
+ }
 
 .main{
     height: 80%;
@@ -46,13 +53,14 @@
         background-repeat: no-repeat;
         background-position: left center;
         border-radius: 10%;
+        margin: 0px 10px;
         
 
     }
     &__image:hover{
-        background-image: url(jumpscare.gif);
+        background-image: url(scary.gif);
         width: 50%;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: left center;
         border-radius: 10%;
@@ -76,7 +84,6 @@
     }
     
 }
-
 
 .footer{
     height: 10%;
@@ -129,7 +136,7 @@
          &__image:hover{
             border-radius: 100%;
             background-position: center;
-            background-size: 100%;
+            background-size: contain;
             width: 200px;
             height: 200px;
          }   
