@@ -85,14 +85,14 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap: 20px;
   background-color: #780606;
   margin-top: 10px;
+  padding-left: 20px;
 }
-.footer [class^=footer__] img {
-  width: 5.3vw;
-  margin-right: 20px;
+.footer__text {
+  font-size: 2.5vw;
 }
 
 #size {
